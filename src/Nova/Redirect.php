@@ -32,7 +32,7 @@ class Redirect extends Resource
                 '304' => '304 (Not Modified)',
                 '307' => '307 (Temporary Redirect)',
                 '308' => '308 (Permanent Redirect)'
-            ])->rules('required')->default('302')
+            ])->rules('required')->default('301')
         ];
     }
 }
